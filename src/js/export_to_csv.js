@@ -42,6 +42,7 @@ data.forEach(function(season){
     user_ratings.forEach(function(r){
       row += r.reviews + "," + r.percentage+",";
     });
+    row = row.substring(0, row.length-1);
     var user_demographic = episode.ratings.demographic;
     var info = {}; 
     user_demographic.forEach(function(d){
@@ -52,6 +53,7 @@ data.forEach(function(season){
         row += info[d+":"+a].rating +","+info[d+":"+a].reviews+",";
       });
     });
+    row = row.substring(0, row.length-1);    
     var characters = episode.characters;
     characters.forEach(function(c){
       // for each "row", add each character and screen time
