@@ -5,8 +5,8 @@ account: aloha
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 361028
-bundleId: 1430526
+bundleId: 1430740
 url: https://aloha.shinyapps.io/Got687/
-when: 1529018920.58654
+when: 1529038792.84284
 asMultiple: FALSE
 asStatic: FALSE

@@ -4,6 +4,19 @@ html, body {
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
     background-size: cover;    
-    color:#DCDCDC;
+    color:#DCDCDC !important;
 }
 
+pre {
+    background:black;
+    color:white !important;
+    width:70% !important;
+}
+
+.img_border {
+   border:1px solid #ccc;
+   opacity:.9;
+}
+.adjust_top {
+    margin-top:-75px !important;
+}
