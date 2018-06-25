@@ -1,16 +1,14 @@
 html, body {
-     background: url(bg3.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover; /* For WebKit*/
-    -moz-background-size: cover;    /* Mozilla*/
-    -o-background-size: cover;      /* Opera*/
-    background-size: cover;    
-    color:#DCDCDC !important;
+/*     background: url(logo.png) no-repeat center center fixed; */
+
+/*    color:#DCDCDC !important; */
 }
 
-pre {
+xpre {
     background:black;
     color:white !important;
-    width:70% !important;
+    width:50% !important;
+    max-width:50% !important;
 }
 
 .img_border {

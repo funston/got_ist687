@@ -1,25 +1,19 @@
 ### IST687 Project
 
-##### Game of Thrones:  Got Data?
+##### Game of Thrones:  Executive Summary
+
+Executive Summary:
+
+Game of Thrones (GoT) is a fantasy TV-series that premiered on HBO in 2011; it is an adaption of the book series written by George R.R Martin. Due to the popularity and continued success of Game of Thrones, this predictive model will attempt to predict the demographic user ratings of GoT episode based on the characters and their associated screen time in the episode.
 
 
-* Our Project will attempt to predict the demographic user ratings of a Game of Thrones episode based on <br>
-the characters and their associated screen time in the episode.<br>
+<a target="blank" href="https://github.com/rschiavi/got_ist687">code</a>
 
-* Our approach
+<a target="blank" href="https://aloha.shinyapps.io/Got687/">Presentation</a>
 
-     1. Acquire/Scrape the IMDB ratings, which include ratings per
-     demographic (gender and age).
+<center><img src="logo.png"/></center>
 
-     2. Use an existing data source of all Game of Thrones Episodes and
-     every characters time on screen per episode.
 
-     3. Explore recommendation approaches and build a model to train
-     on 70% of the data.
-
-     4. Use the remaining 30% of the episodes in various combinations to
-     to predict the rating each demographic will assign the episode
-     based on the character data.
 
 
 
