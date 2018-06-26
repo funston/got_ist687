@@ -1,0 +1,72 @@
+
+<style>
+  .container {
+    position: relative;
+  }
+  * {
+   margin: 0;
+   padding: 0;
+  }
+  .imgbox {
+   display: grid;
+   height: 100%;
+  width:100%;
+  }
+  .center-fit {
+   max-width: 100%;
+   max-height: 100vh;
+   margin: auto;
+  z-index:-1;
+  position:absolute;
+  top:100px;
+  left:0px;
+  }
+
+  .i {
+   position: absolute;
+    left: 0px;
+    top: 100px;
+    z-index: -1;
+   max-width: 100%;
+   max-height: 100vh;
+   margin: auto;  
+  }
+  
+  .bg {
+  position:absolute;
+  top:-10px;
+  color:black;
+  
+  }
+
+  .up {
+  margin-top:0px;
+  position:absolute;
+  top:0px;
+  }
+</style>
+
+<div class="container">
+<div class="imgbox">
+  <img class="i" src='conclusion.jpg'>
+</div>  
+<div class="bg">
+<h3>Conclusion</h3>
+<!-- style="background:url('conclusion.jpg')no-repeat center center fixed;background-size:contain;width:1000px;height:900px">-->
+<p>Overall, the idea was ambitious, but our take away was, with more data, we feel there is merit to making a prediction based on what characters are in an episode and how much screen time they have.</p>
+
+<p>While we had a robust number of characters and screen times, we only had 67 episodes to work with. We needed more episodes (through put) to enhance the models abilities to predict</p>
+
+<p>For next steps, or with more time, we would have liked to explored:
+<ul style="margin-left:20px">
+  <li>Digging into demographic data more to make ratings based on age group, gender</li>
+  <li>Build models for Fan Favorites by Demographic based on the ratings</li>
+  <li>Could we predict, with all actor data (not character) whether a show/movie would be a hit based on their screen time in that movie?</li>
+  <li>Work on a better categorization method to run random forest</li>
+</ul>
+</p>
+
+</div>
+
+  
+</div>

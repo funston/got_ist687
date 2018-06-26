@@ -13,7 +13,7 @@ ui <- navbarPage(title = "Data of Thrones",
                           fluidPage(fluidRow(
                                       column(6, includeMarkdown("acquisition.md"),
                                              br()),
-                                      column(6,  img(src='rating0.png', class="img_border",align = "right"), br()),
+                                     column(6,  img(src='rating0.png', class="img_border",align = "right"), br()),
                                       column(12, img(src='rating1.png', class="adjust_top", class="img_border", align="right"))
                           ))),
                  tabPanel("Data Analysis",
@@ -22,13 +22,13 @@ ui <- navbarPage(title = "Data of Thrones",
                 tabPanel("Random Forest",
                           fluidPage(fluidRow(
                                       column(12, includeHTML("www/random_forest.html"))))),
-                 tabPanel("Neural Newtork",
-                          fluidPage(fluidRow(
-                                      column(12,includeMarkdown("neural_network.md"))))),                 
-               
-                 tags$head(
-                  tags$link(rel = "stylesheet", type = "text/css", href = "bootstrap.css")
-                 )
+               tabPanel("Neural Network",
+                       fluidPage(fluidRow(
+                                      column(12,includeMarkdown("neural_network.md"))))),    
+                tabPanel("Conclusion",
+                         fluidPage(fluidRow(
+                           column(12, includeHTML("www/conclusion.html"))))),
+                 tags$head(tags$link(rel = "stylesheet", type = "text/css", href = "bootstrap.css"))
 )
 
 # Define server logic required to draw a histogram
